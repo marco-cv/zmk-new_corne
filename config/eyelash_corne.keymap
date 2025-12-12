@@ -215,22 +215,22 @@
         compatible = "zmk,conditional-layers";
 
         navigation_upper_layer {
-            if-layers = <2 3>;
-            then-layer = <4>;
+            if-layers = <1 2>;
+            then-layer = <3>;
         };
 
         symbol_upper_layer {
-            if-layers = <2 4>;
+            if-layers = <1 4>;
             then-layer = <5>;
         };
 
         number_layer {
-            if-layers = <3 4>;
+            if-layers = <2 4>;
             then-layer = <6>;
         };
 
         connection_layer {
-            if-layers = <2 3 4>;
+            if-layers = <1 2 4>;
             then-layer = <7>;
         };
     };
