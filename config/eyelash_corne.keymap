@@ -102,10 +102,10 @@
         alpha_layer {
             display-name = "ALPHA";
             bindings = <
-&kp IT_SECT  &kp Q  &kp W  &kp E  &kp R  &kp T                  &none         &kp Y  &kp U      &kp I      &kp O    &kp P          &none
-&kp GRAVE    &kp A  &kp S  &kp D  &kp F  &kp G           &none  &none  &none  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &kp SQT
-&none        &kp Z  &kp X  &kp C  &kp V  &kp B  &none           &none         &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &none
-                           &mo 0  &mo 1  &mo 2                                &mo 4  &kp SPACE  &mo 0
+&kp BACKSLASH  &kp Q  &kp W  &kp E  &kp R  &kp T                  &none         &kp Y  &kp U      &kp I      &kp O    &kp P          &none
+&kp GRAVE      &kp A  &kp S  &kp D  &kp F  &kp G           &none  &none  &none  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &kp SQT
+&none          &kp Z  &kp X  &kp C  &kp V  &kp B  &none           &none         &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &none
+                             &mo 0  &mo 1  &mo 2                                &mo 4  &kp SPACE  &mo 0
             >;
 
             label = "ALPHA";
@@ -113,10 +113,10 @@
 
         alpha_upper_layer {
             bindings = <
-&none  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                  &none         &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)      &none
-&none  &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)           &none  &none  &none  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp DELETE     &none
-&none  &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &none           &none         &kp LS(N)  &kp LS(M)  &kp QMARK  &kp EXCL   &kp LS(ENTER)  &none
-                             &trans     &trans     &trans                                   &trans     &trans     &trans
+&kp LS(BACKSLASH)  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                  &none         &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)      &none
+&kp LS(GRAVE)      &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)           &none  &none  &none  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp DELETE     &kp LS(SQT)
+&none              &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &none           &none         &kp LS(N)  &kp LS(M)  &kp QMARK  &kp EXCL   &kp LS(ENTER)  &none
+                                         &trans     &trans     &trans                                   &trans     &trans     &trans
             >;
 
             label = "UPPER";
@@ -124,8 +124,8 @@
 
         navigation_layer {
             bindings = <
-&none  &kp ESC               &kp TAB    &none     &none     &none                   &none         &none     &kp PG_UP  &kp UP    &kp PG_DN  &kp END  &none
-&none  &sk LSHIFT            &sk LCTRL  &sk LALT  &sk LGUI  &none            &none  &none  &none  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &trans   &none
+&none  &kp ESC               &kp TAB    &none     &none     &none                   &none         &none     &kp PG_UP  &kp UP    &kp PG_DN  &none    &none
+&none  &sk LSHIFT            &sk LCTRL  &sk LALT  &sk LGUI  &none            &none  &none  &none  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END  &none
 &none  &sk LS(LC(LA(LGUI)))  &none      &none     &none     &none   &none           &none         &none     &none      &none     &none      &none    &none
                                         &trans    &trans    &trans                                &trans    &trans     &trans
             >;
@@ -168,9 +168,9 @@
 
         number_layer {
             bindings = <
-&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN                  &none         &none            &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &none   &none
-&none  &kp F11  &kp F4  &kp F5  &kp F6  &none               &none  &none  &none  &kp KP_NUMBER_0  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &trans  &none
-&none  &kp F10  &kp F1  &kp F2  &kp F3  &none      &none           &none         &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &trans  &none
+&none  &kp F12  &kp F7  &kp F8  &kp F9  &kp PSCRN                  &none         &kp KP_PLUS      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_MULTIPLY  &none
+&none  &kp F11  &kp F4  &kp F5  &kp F6  &none               &none  &none  &none  &kp KP_MINUS     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_DIVIDE    &none
+&none  &kp F10  &kp F1  &kp F2  &kp F3  &none      &none           &none         &kp KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_DOT       &none
                         &trans  &trans  &trans                                   &trans           &trans           &trans
             >;
 
