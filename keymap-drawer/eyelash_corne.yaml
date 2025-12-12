@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   ALPHA:
-  - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))))
+  - {t: \, s: '|'}
   - Q
   - W
   - E
@@ -50,7 +50,7 @@ layers:
   - $$mdi:keyboard-space$$
   - ALPHA
   UPPER:
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+\, s: Sft+|}
   - Sft+Q
   - Sft+W
   - Sft+E
@@ -63,7 +63,7 @@ layers:
   - Sft+O
   - Sft+P
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+`, s: Sft+~}
   - Sft+A
   - Sft+S
   - Sft+D
@@ -77,7 +77,7 @@ layers:
   - Sft+K
   - Sft+L
   - $$mdi:backspace-reverse-outline$$
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Sft+', s: Sft+"}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - Sft+Z
   - Sft+X
@@ -110,7 +110,7 @@ layers:
   - PG UP
   - $$mdi:arrow-up-bold$$
   - PG DN
-  - END
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:apple-keyboard-shift$$', h: '$$mdi:gesture-tap-hold$$'}
@@ -125,7 +125,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '$$mdi:transfer$$', type: trans}
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: Meh+LGUI, h: '$$mdi:gesture-tap-hold$$'}
@@ -302,11 +302,11 @@ layers:
   - F9
   - $$mdi:printer-outline$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP PLUS
   - KP 7
   - KP 8
   - KP 9
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP MULTIPLY
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F11
@@ -317,11 +317,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - KP 0
+  - KP MINUS
   - KP 4
   - KP 5
   - KP 6
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DIVIDE
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F10
@@ -331,11 +331,11 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - KP 0
   - KP 1
   - KP 2
   - KP 3
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP DOT
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
