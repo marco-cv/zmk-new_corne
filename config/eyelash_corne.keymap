@@ -105,7 +105,7 @@
 &kp IT_SECT  &kp Q  &kp W  &kp E  &kp R  &kp T                  &none         &kp Y  &kp U      &kp I      &kp O    &kp P          &none
 &kp GRAVE    &kp A  &kp S  &kp D  &kp F  &kp G           &none  &none  &none  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &kp SQT
 &none        &kp Z  &kp X  &kp C  &kp V  &kp B  &none           &none         &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &none
-                           &mo 8  &mo 1  &mo 2                                &mo 4  &kp SPACE  &mo 9
+                           &mo 0  &mo 1  &mo 2                                &mo 4  &kp SPACE  &mo 0
             >;
 
             label = "ALPHA";
@@ -186,28 +186,6 @@
             >;
 
             label = "CONNECT";
-        };
-
-        italian_layer {
-            bindings = <
-&none  &none  &none  &kp IT_E_GRAVE  &none   &none                   &none         &none   &kp IT_U_GRAVE  &kp IT_I_GRAVE  &kp IT_O_GRAVE  &none  &none
-&none  &none  &none  &none           &none   &none            &none  &none  &none  &none   &none           &none           &none           &none  &none
-&none  &none  &none  &none           &none   &none   &none           &none         &none   &none           &none           &none           &none  &none
-                     &trans          &trans  &trans                                &trans  &trans          &trans
-            >;
-
-            label = "ITALIAN";
-        };
-
-        italian_upper_layer {
-            bindings = <
-&none  &none  &none  &kp IT_E_ACUTE  &none   &none                   &none         &none   &none   &none   &none  &none  &none
-&none  &none  &none  &none           &none   &none            &none  &none  &none  &none   &none   &none   &none  &none  &none
-&none  &none  &none  &none           &none   &none   &none           &none         &none   &none   &none   &none  &none  &none
-                     &trans          &trans  &trans                                &trans  &trans  &trans
-            >;
-
-            label = "ITALIAN_UPPER";
         };
     };
 
