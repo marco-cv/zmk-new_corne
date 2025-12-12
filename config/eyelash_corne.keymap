@@ -102,10 +102,10 @@
         alpha_layer {
             display-name = "ALPHA";
             bindings = <
-&trans  &kp Q  &kp W  &tde    &kp R  &kp T                    &trans          &kp Y  &tdu       &tdi       &tdo     &kp P          &trans
-&trans  &tda   &kp S  &kp D   &kp F  &kp G            &trans  &trans  &trans  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &trans
-&trans  &kp Z  &kp X  &kp C   &kp V  &kp B  &trans            &trans          &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &trans
-                      &trans  &mo 1  &mo 2                                    &mo 4  &kp SPACE  &trans
+&trans  &kp Q  &kp W  &kp E  &kp R  &kp T                    &trans          &kp Y  &kp U      &kp I      &kp O    &kp P          &trans
+&trans  &kp A  &kp S  &kp D  &kp F  &kp G            &trans  &trans  &trans  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &trans
+&trans  &kp Z  &kp X  &kp C  &kp V  &kp B  &trans            &trans          &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &trans
+                      &mo 8  &mo 1  &mo 2                                    &mo 4  &kp SPACE  &mo 9
             >;
 
             label = "ALPHA";
@@ -186,6 +186,28 @@
             >;
 
             label = "CONNECT";
+        };
+
+        italian_layer {
+            bindings = <
+&trans  &trans  &trans  &kp IT_E_GRAVE  &trans  &trans                    &trans          &trans  &kp IT_U_GRAVE  &kp IT_I_GRAVE  &kp IT_O_GRAVE  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans            &trans  &trans  &trans  &trans  &trans          &trans          &trans          &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans            &trans          &trans  &trans          &trans          &trans          &trans  &trans
+                        &trans          &trans  &trans                                    &trans  &trans          &trans
+            >;
+
+            label = "ITALIAN";
+        };
+
+        italian_upper_layer {
+            bindings = <
+&trans  &trans  &trans  &kp IT_E_ACUTE  &trans  &trans                    &trans          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans          &trans  &trans  &trans            &trans          &trans  &trans  &trans  &trans  &trans  &trans
+                        &trans          &trans  &trans                                    &trans  &trans  &trans
+            >;
+
+            label = "ITALIAN_UPPER";
         };
     };
 
