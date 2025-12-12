@@ -102,10 +102,10 @@
         alpha_layer {
             display-name = "ALPHA";
             bindings = <
-&kp BACKSLASH  &kp Q  &kp W  &kp E  &kp R  &kp T                  &none         &kp Y  &kp U      &kp I      &kp O    &kp P          &none
-&kp GRAVE      &kp A  &kp S  &kp D  &kp F  &kp G           &none  &none  &none  &kp H  &kp J      &kp K      &kp L    &kp BACKSPACE  &kp SQT
-&none          &kp Z  &kp X  &kp C  &kp V  &kp B  &none           &none         &kp N  &kp M      &kp COMMA  &kp DOT  &kp ENTER      &none
-                             &mo 0  &mo 1  &mo 2                                &mo 4  &kp SPACE  &mo 0
+&kp BACKSLASH  &kp Q  &kp W  &kp E  &kp R      &kp T                  &none         &kp Y  &kp U  &kp I      &kp O    &kp P          &none
+&kp GRAVE      &kp A  &kp S  &kp D  &kp F      &kp G           &none  &none  &none  &kp H  &kp J  &kp K      &kp L    &kp BACKSPACE  &kp SQT
+&none          &kp Z  &kp X  &kp C  &kp V      &kp B  &none           &none         &kp N  &kp M  &kp COMMA  &kp DOT  &kp ENTER      &none
+                             &mo 6  &kp SPACE  &mo 2                                &mo 4  &mo 1  &mo 3
             >;
 
             label = "ALPHA";
@@ -192,23 +192,13 @@
     conditional_layers {
         compatible = "zmk,conditional-layers";
 
-        navigation_upper_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-
-        symbol_upper_layer {
-            if-layers = <1 4>;
+        number_layer {
+            if-layers = <2 4>;
             then-layer = <5>;
         };
 
-        number_layer {
-            if-layers = <2 4>;
-            then-layer = <6>;
-        };
-
         connection_layer {
-            if-layers = <1 2 4>;
+            if-layers = <2 6>;
             then-layer = <7>;
         };
     };
