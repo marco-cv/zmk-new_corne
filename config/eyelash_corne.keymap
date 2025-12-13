@@ -114,7 +114,7 @@
         alpha_upper_layer {
             bindings = <
 &kp LS(BACKSLASH)  &kp LS(Q)  &kp LS(W)  &kp LS(E)  &kp LS(R)  &kp LS(T)                  &none         &kp LS(Y)  &kp LS(U)  &kp LS(I)  &kp LS(O)  &kp LS(P)      &none
-&kp LS(GRAVE)      &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)           &none  &none  &none  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp DELETE     &kp LS(SQT)
+&none              &kp LS(A)  &kp LS(S)  &kp LS(D)  &kp LS(F)  &kp LS(G)           &none  &none  &none  &kp LS(H)  &kp LS(J)  &kp LS(K)  &kp LS(L)  &kp DELETE     &none
 &none              &kp LS(Z)  &kp LS(X)  &kp LS(C)  &kp LS(V)  &kp LS(B)  &none           &none         &kp LS(N)  &kp LS(M)  &kp QMARK  &kp EXCL   &kp LS(ENTER)  &none
                                          &trans     &trans     &trans                                   &trans     &trans     &trans
             >;
@@ -157,10 +157,10 @@
 
         symbol_upper_layer {
             bindings = <
-&none  &none  &none  &kp BSLH  &kp GT    &none                     &none         &none     &none     &kp HASH  &kp PERCENT  &none   &none
-&none  &none  &none  &kp DQT   &kp RPAR  &kp RBRC           &none  &none  &none  &kp SEMI  &kp PIPE  &kp AMPS  &kp PLUS     &trans  &none
-&none  &none  &none  &none     &kp RBKT  &none     &none           &none         &none     &kp AT    &none     &none        &trans  &none
-                     &trans    &trans    &trans                                  &trans    &trans    &trans
+&none  &trans  &trans  &kp BSLH  &kp GT    &none                     &none         &none     &none     &kp HASH  &kp PERCENT  &none   &none
+&none  &none   &none   &kp DQT   &kp RPAR  &kp RBRC           &none  &none  &none  &kp SEMI  &kp PIPE  &kp AMPS  &kp PLUS     &trans  &none
+&none  &none   &none   &none     &kp RBKT  &none     &none           &none         &none     &kp AT    &none     &none        &trans  &none
+                       &trans    &trans    &trans                                  &trans    &trans    &trans
             >;
 
             label = "SYMBOL_UPPER";
