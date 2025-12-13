@@ -158,8 +158,8 @@
         symbol_upper_layer {
             bindings = <
 &none  &trans  &trans  &kp BSLH  &kp GT    &none                     &none         &none     &none     &kp HASH  &kp PERCENT  &none   &none
-&none  &none   &none   &kp DQT   &kp RPAR  &kp RBRC           &none  &none  &none  &kp SEMI  &kp PIPE  &kp AMPS  &kp PLUS     &trans  &none
-&none  &none   &none   &none     &kp RBKT  &none     &none           &none         &none     &kp AT    &none     &none        &trans  &none
+&none  &trans  &trans  &kp DQT   &kp RPAR  &kp RBRC           &none  &none  &none  &kp SEMI  &kp PIPE  &kp AMPS  &kp PLUS     &trans  &none
+&none  &trans  &none   &none     &kp RBKT  &none     &none           &none         &none     &kp AT    &none     &none        &trans  &none
                        &trans    &trans    &trans                                  &trans    &trans    &trans
             >;
 
