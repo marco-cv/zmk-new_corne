@@ -29,7 +29,7 @@ layers:
   - L
   - {t: '$$mdi:backspace$$', type: backspace}
   - Gui+F2
-  - Gui+$$mdi:keyboard-space$$
+  - $$mdi:keyboard-space$$
   - Z
   - X
   - C
@@ -44,10 +44,10 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '`', s: '~'}
-  - $$mdi:keyboard-space$$
+  - UPPER
   - NAVIGATION
   - SYMBOL
-  - UPPER
+  - $$mdi:keyboard-space$$
   - {t: '''', s: '"'}
   UPPER:
   - {t: Sft+\, s: Sft+|}
@@ -93,10 +93,10 @@ layers:
   - {t: 'Sft+$$mdi:keyboard-return$$', type: enter}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NAVIGATION:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -289,10 +289,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   NUMBER:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
@@ -387,10 +387,10 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
+  - {type: held}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - {type: held}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [1, 15, 29]
