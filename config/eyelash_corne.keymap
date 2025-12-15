@@ -208,7 +208,7 @@
         };
 
         connection_layer {
-            if-layers = <0 6>;
+            if-layers = <1 2 4>;
             then-layer = <7>;
         };
     };
