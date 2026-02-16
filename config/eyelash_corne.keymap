@@ -124,10 +124,10 @@
 
         navigation_layer {
             bindings = <
-&none  &kp ESC               &kp TAB           &none             &none             &none                       &none         &none     &kp PG_UP  &kp UP    &kp PG_DN  &none    &none
-&none  &sk LSHIFT            &sk LCTRL         &sk LALT          &sk LGUI          &none                &none  &none  &none  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END  &none
-&none  &sk LS(LC(LA(LGUI)))  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp LA(F1)  &none           &none         &none     &none      &none     &none      &none    &none
-                                               &none             &trans            &trans                                    &trans    &trans     &none
+&none  &kp ESC               &kp TAB           &none             &none             &none                   &none         &none     &kp PG_UP  &kp UP    &kp PG_DN  &none    &none
+&none  &sk LSHIFT            &sk LCTRL         &sk LALT          &sk LGUI          &none            &none  &none  &none  &kp HOME  &kp LEFT   &kp DOWN  &kp RIGHT  &kp END  &none
+&none  &sk LS(LC(LA(LGUI)))  &kp LG(NUMBER_1)  &kp LG(NUMBER_2)  &kp LG(NUMBER_3)  &kp F1  &none           &none         &none     &none      &none     &none      &none    &none
+                                               &none             &trans            &trans                                &trans    &trans     &none
             >;
 
             label = "NAVIGATION";
