@@ -132,7 +132,7 @@ layers:
   - Gui+1
   - Gui+2
   - Gui+3
-  - Alt+F1
+  - F1
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
